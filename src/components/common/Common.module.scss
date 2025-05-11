@@ -1,0 +1,40 @@
+.AccordionItem {
+  .accordionBtn {
+    .accordionIcn {
+      top: 50%;
+      transform: translateY(-50%);
+      transition: 0.4s;
+    }
+    &.active {
+      .accordionIcn {
+        top: 50%;
+        // transform: translateY(-50%) rotate(-180deg);
+      }
+    }
+  }
+}
+
+// pagination
+.paginationWrp {
+  .paginationBtn {
+    height: 33px;
+    width: 33px;
+    border: 1px solid transparent;
+    color: #a098ae;
+    &.active {
+      background-color: #0e0637;
+      border-color: #0e0637;
+      color: #fff;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  // social login
+  .socialLogin {
+    justify-content: center !important;
+    button {
+      width: 60px !important;
+    }
+  }
+}
