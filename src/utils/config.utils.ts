@@ -63,17 +63,18 @@ export const aerodromeContracts: AerodromeContracts = {
         votingEscrow: "0xeBf418Fe2512e7E6bd9b87a8F0f294aCDC67e6B4"
     },
     56: {
-        router: "",
-        factory: "",
+        router: "0xF558542e4Ff4c7a00C3BB7D9151421e3585F3AFF",
+        factory: "0x3b571082a530e60435F77ce959EBc56d9044F8b5",
         lpSugar: "",
         veSugar: "",
         rewardSugar: "",
         relaySugar: "",
         universalRouter: "",
-        voter: "",
-        votingEscrow: ''
+        voter: "0xAf1d3652B406AF980680C1A497f5eE74a8589CA4",
+        votingEscrow: '0xdFC27e9F70B0865a66BeE5FEa84fF16762e1A9aD'
     }
 };
+
 
 export type RpcUrls = {
     [key: number]: string;
@@ -82,13 +83,13 @@ export type RpcUrls = {
 export const rpcUrls: RpcUrls = {
     84532: "https://base-sepolia-rpc.publicnode.com",
     8453: "https://mainnet.base.org",
-    56: ""
+    56: "https://bsc-mainnet.infura.io/v3/a48f9442af1a4c8da44b4fc26640e23d"
 } as const
 
 export const explorerUrls: RpcUrls = {
     84532: "https://sepolia.basescan.org/tx/",
     8453: "https://basescan.org/tx/",
-    56: ""
+    56: "https://bscscan.com/tx/"
 } as const
 
 
